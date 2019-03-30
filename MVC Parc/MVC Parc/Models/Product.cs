@@ -9,7 +9,7 @@ namespace MVC_Parc.Models
     public enum Tipoestado
     {
         Activo,
-        Inactivo,
+        Inactivo
     }
     public enum Tipounidad
     {
@@ -22,16 +22,16 @@ namespace MVC_Parc.Models
     {
 
         [Key]
-        public int ProductId { get; set; };
+        public int ProductId { get; set; }
         [Required]
         [Display(Name = "Product Name")]
-        public string Nombre { get; set; };
+        public string Nombre { get; set; }
         [Required]
-        public decimal Precio { get; set; };
-        public int Cantidad { get; set; };
+        public decimal Precio { get; set; }
+        public int Cantidad { get; set; }
         [Required]
-        public Tipounidad Unidad { get; set; };
-        public Tipoestado Estado { get; set; };
+        public Tipounidad Unidad { get; set; }
+        public Tipoestado Estado { get; set; }
 
 
     }

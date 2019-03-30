@@ -9,5 +9,7 @@ namespace MVC_Parc.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVC_Parc.Models.Product> Products { get; set; }
     }
 }
